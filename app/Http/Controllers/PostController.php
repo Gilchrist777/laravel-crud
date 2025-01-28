@@ -25,7 +25,7 @@ class PostController extends Controller
         'title.required' => 'Please provide a title because it is mandatory.qwerr',
         'title.max' => 'Only 8 characters for title.jhjijij',
         'content.required' => 'Content is required.bgfcg',
-        'content.min' => 'Content must be at least 10 characters long.'
+        'content.min' => 'Content must be at least 10 characters long.bjbjbhjhk'
     ]);
 
     Post::create($request->all());
