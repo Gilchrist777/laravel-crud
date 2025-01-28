@@ -8,7 +8,7 @@
     <label>Content:</label>
     <textarea name="content" ></textarea>
     @error('content')
-            <div style="color: red;">{{ $message }}</div>
+            <div style="color: red; font-size:17px;">{{ $message }}</div>
         @enderror
     <button type="submit">Save</button>
 </form>
