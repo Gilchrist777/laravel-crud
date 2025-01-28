@@ -23,7 +23,7 @@ class PostController extends Controller
         'content' => 'required|min:10',
     ], [
         'title.required' => 'Please provide a title because it is mandatory.qwerr',
-        'title.max' => 'Only 8 characters for title.',
+        'title.max' => 'Only 8 characters for title.jhjijij',
         'content.required' => 'Content is required.',
         'content.min' => 'Content must be at least 10 characters long.'
     ]);
